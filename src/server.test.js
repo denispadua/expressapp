@@ -11,7 +11,7 @@ describe('root', () => {
             .get('/')
             .expect(200)
             .then((res) => {
-                expect(res.text).toContain('Welcome to Express');
+                expect(res.text).toContain('Disciplina de Desenvolvimento Web com Boas Práticas | Denis');
                 done();
             }).catch(err => done(err));;
     });
